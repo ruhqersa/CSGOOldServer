@@ -1,0 +1,21 @@
+{
+	"revision": 127,
+	"lat_lon": {
+		"pwj": [ 38.3, 116.4 ]
+	},
+	"data_centers": {
+		"pwj": {
+			"partners": 2,
+			"address_ranges": [ "127.0.0.1-127.0.0.1" ]
+		}
+	},
+	"routing_clusters": {
+		"pwj": {
+			"ping_only": true,
+			"partners": 2,
+			"addresses": [
+				"127.0.0.1:12345-12345"
+			]
+		}
+	}
+}
